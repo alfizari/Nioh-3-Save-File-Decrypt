@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+  NiohSavefiledecrypt.cpp
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(14,20): warning C4244: 'return': conversion from 'std::streamoff' to 'int', possible loss of data
+  (compiling source file 'NiohSavefiledecrypt.cpp')
+  
+  Generating code
+  1 of 389 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Nioh_Savefile_decrypt.vcxproj -> C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\x64\Release\Nioh_Savefile_decrypt.exe

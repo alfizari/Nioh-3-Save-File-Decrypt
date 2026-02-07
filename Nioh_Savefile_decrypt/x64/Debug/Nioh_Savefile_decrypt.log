@@ -1,0 +1,474 @@
+﻿  stdafx.cpp
+  CryptoState.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(14,20): warning C4244: 'return': conversion from 'std::streamoff' to 'int', possible loss of data
+  (compiling source file 'CryptoState.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,8): error C2039: 'filesystem': is not a member of 'std'
+  (compiling source file 'CryptoState.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(20,1):
+      see declaration of 'std'
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,8): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+  (compiling source file 'CryptoState.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,20): error C2039: 'path': is not a member of 'std'
+  (compiling source file 'CryptoState.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(20,1):
+      see declaration of 'std'
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,25): error C2146: syntax error: missing ';' before identifier 'file_path'
+  (compiling source file 'CryptoState.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,25): error C3861: 'file_path': identifier not found
+  (compiling source file 'CryptoState.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,35): error C2065: 'file_path': undeclared identifier
+  (compiling source file 'CryptoState.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25): error C2665: 'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream': no overloaded function could convert all the argument types
+  (compiling source file 'CryptoState.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(215,5):
+      could be 'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(FILE *)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(FILE *)': cannot convert argument 1 from 'int' to 'FILE *'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(206,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::wstring &,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::wstring &,std::ios_base::openmode,int)': cannot convert argument 1 from 'int' to 'const std::wstring &'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Reason: cannot convert from 'int' to 'const std::wstring'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string': no overloaded function could convert all the argument types
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(818,5):
+                  could be 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=wchar_t
+          ]
+                      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                      'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'int' to 'const _Elem *const '
+          with
+          [
+              _Elem=wchar_t
+          ]
+                          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                          Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(1390,5):
+                  or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=wchar_t,
+              _Alloc=std::allocator<wchar_t>
+          ]
+                      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                      'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'int' to 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=wchar_t,
+              _Alloc=std::allocator<wchar_t>
+          ]
+          and
+          [
+              _Elem=wchar_t
+          ]
+                          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(848,5):
+                  or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<wchar_t>
+          ]
+                  C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                  while trying to match the argument list '(int)'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(197,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const wchar_t *,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const wchar_t *,std::ios_base::openmode,int)': cannot convert argument 1 from 'int' to 'const wchar_t *'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(193,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::string &,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::string &,std::ios_base::openmode,int)': cannot convert argument 1 from 'int' to 'const std::string &'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Reason: cannot convert from 'int' to 'const std::string'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string': no overloaded function could convert all the argument types
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(818,5):
+                  could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+                      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'int' to 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+                          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                          Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(1390,5):
+                  or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+                      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'int' to 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+                          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(848,5):
+                  or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+                  C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                  while trying to match the argument list '(int)'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(185,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const char *,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const char *,std::ios_base::openmode,int)': cannot convert argument 1 from 'int' to 'const char *'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(211,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const _Ty &,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const _Ty &,std::ios_base::openmode,int)': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(57,26):
+              'std::enable_if_t<false,int>' : Failed to specialize alias template
+      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+      while trying to match the argument list '(int)'
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\CryptoState.cpp(218,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\CryptoState.cpp(227,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\CryptoState.cpp(252,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\CryptoState.cpp(261,20): warning C4018: '<': signed/unsigned mismatch
+  NiohSavefiledecrypt.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(14,20): warning C4244: 'return': conversion from 'std::streamoff' to 'int', possible loss of data
+  (compiling source file 'NiohSavefiledecrypt.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,8): error C2039: 'filesystem': is not a member of 'std'
+  (compiling source file 'NiohSavefiledecrypt.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(20,1):
+      see declaration of 'std'
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,8): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+  (compiling source file 'NiohSavefiledecrypt.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,20): error C2039: 'path': is not a member of 'std'
+  (compiling source file 'NiohSavefiledecrypt.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(20,1):
+      see declaration of 'std'
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,25): error C2146: syntax error: missing ';' before identifier 'file_path'
+  (compiling source file 'NiohSavefiledecrypt.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,25): error C3861: 'file_path': identifier not found
+  (compiling source file 'NiohSavefiledecrypt.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,35): error C2065: 'file_path': undeclared identifier
+  (compiling source file 'NiohSavefiledecrypt.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25): error C2665: 'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream': no overloaded function could convert all the argument types
+  (compiling source file 'NiohSavefiledecrypt.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(215,5):
+      could be 'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(FILE *)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(FILE *)': cannot convert argument 1 from 'int' to 'FILE *'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(206,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::wstring &,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::wstring &,std::ios_base::openmode,int)': cannot convert argument 1 from 'int' to 'const std::wstring &'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Reason: cannot convert from 'int' to 'const std::wstring'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string': no overloaded function could convert all the argument types
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(818,5):
+                  could be 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=wchar_t
+          ]
+                      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                      'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'int' to 'const _Elem *const '
+          with
+          [
+              _Elem=wchar_t
+          ]
+                          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                          Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(1390,5):
+                  or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=wchar_t,
+              _Alloc=std::allocator<wchar_t>
+          ]
+                      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                      'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'int' to 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=wchar_t,
+              _Alloc=std::allocator<wchar_t>
+          ]
+          and
+          [
+              _Elem=wchar_t
+          ]
+                          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(848,5):
+                  or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<wchar_t>
+          ]
+                  C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                  while trying to match the argument list '(int)'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(197,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const wchar_t *,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const wchar_t *,std::ios_base::openmode,int)': cannot convert argument 1 from 'int' to 'const wchar_t *'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(193,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::string &,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::string &,std::ios_base::openmode,int)': cannot convert argument 1 from 'int' to 'const std::string &'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Reason: cannot convert from 'int' to 'const std::string'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string': no overloaded function could convert all the argument types
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(818,5):
+                  could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+                      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'int' to 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+                          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                          Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(1390,5):
+                  or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+                      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'int' to 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+                          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(848,5):
+                  or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+                  C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                  while trying to match the argument list '(int)'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(185,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const char *,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const char *,std::ios_base::openmode,int)': cannot convert argument 1 from 'int' to 'const char *'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(211,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const _Ty &,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const _Ty &,std::ios_base::openmode,int)': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(57,26):
+              'std::enable_if_t<false,int>' : Failed to specialize alias template
+      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+      while trying to match the argument list '(int)'
+  
+  SaveEditor.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(14,20): warning C4244: 'return': conversion from 'std::streamoff' to 'int', possible loss of data
+  (compiling source file 'SaveEditor.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,8): error C2039: 'filesystem': is not a member of 'std'
+  (compiling source file 'SaveEditor.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(20,1):
+      see declaration of 'std'
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,8): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+  (compiling source file 'SaveEditor.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,20): error C2039: 'path': is not a member of 'std'
+  (compiling source file 'SaveEditor.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(20,1):
+      see declaration of 'std'
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,25): error C2146: syntax error: missing ';' before identifier 'file_path'
+  (compiling source file 'SaveEditor.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(47,25): error C3861: 'file_path': identifier not found
+  (compiling source file 'SaveEditor.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,35): error C2065: 'file_path': undeclared identifier
+  (compiling source file 'SaveEditor.cpp')
+  
+C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25): error C2665: 'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream': no overloaded function could convert all the argument types
+  (compiling source file 'SaveEditor.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(215,5):
+      could be 'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(FILE *)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(FILE *)': cannot convert argument 1 from 'int' to 'FILE *'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(206,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::wstring &,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::wstring &,std::ios_base::openmode,int)': cannot convert argument 1 from 'int' to 'const std::wstring &'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Reason: cannot convert from 'int' to 'const std::wstring'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string': no overloaded function could convert all the argument types
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(818,5):
+                  could be 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=wchar_t
+          ]
+                      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                      'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'int' to 'const _Elem *const '
+          with
+          [
+              _Elem=wchar_t
+          ]
+                          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                          Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(1390,5):
+                  or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=wchar_t,
+              _Alloc=std::allocator<wchar_t>
+          ]
+                      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                      'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'int' to 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=wchar_t,
+              _Alloc=std::allocator<wchar_t>
+          ]
+          and
+          [
+              _Elem=wchar_t
+          ]
+                          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(848,5):
+                  or       'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<wchar_t>
+          ]
+                  C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                  while trying to match the argument list '(int)'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(197,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const wchar_t *,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const wchar_t *,std::ios_base::openmode,int)': cannot convert argument 1 from 'int' to 'const wchar_t *'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(193,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::string &,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const std::string &,std::ios_base::openmode,int)': cannot convert argument 1 from 'int' to 'const std::string &'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Reason: cannot convert from 'int' to 'const std::string'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string': no overloaded function could convert all the argument types
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(818,5):
+                  could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+                      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )': cannot convert argument 1 from 'int' to 'const _Elem *const '
+          with
+          [
+              _Elem=char
+          ]
+                          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                          Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(1390,5):
+                  or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+                      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                      'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)': cannot convert argument 1 from 'int' to 'std::initializer_list<_Elem>'
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+                          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                          Conversion requires a second user-defined-conversion operator or constructor
+                  C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(848,5):
+                  or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+                  C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+                  while trying to match the argument list '(int)'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(185,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const char *,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const char *,std::ios_base::openmode,int)': cannot convert argument 1 from 'int' to 'const char *'
+              C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,80):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(211,5):
+      or       'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const _Ty &,std::ios_base::openmode,int)'
+          C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+          'std::basic_ofstream<char,std::char_traits<char>>::basic_ofstream(const _Ty &,std::ios_base::openmode,int)': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\fstream(57,26):
+              'std::enable_if_t<false,int>' : Failed to specialize alias template
+      C:\Users\alfazari911\Desktop\Github\Nioh2-Savedata-Decryption-Tool-master\Nioh_Savefile_decrypt\io.h(48,25):
+      while trying to match the argument list '(int)'
+  
+  Generating Code...
